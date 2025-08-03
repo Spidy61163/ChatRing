@@ -44,8 +44,8 @@ public class CallActivity extends AppCompatActivity {
     private boolean isMuted = false;
     private boolean isCameraOff = false;
 
-    private String appId = "b152c92dc33145ba8671be9f4c7ccee5";
-    private String certificate = "efb86c6bb5b84e4cb5dbcca973b6309c";
+    private String appId = "";  // Your appId
+    private String certificate = "";  // Your certificate
     private String token = "";
     private String channelName = "";
 
@@ -220,4 +220,5 @@ public class CallActivity extends AppCompatActivity {
             agoraEngine = null;
         }
     }
+
 }
