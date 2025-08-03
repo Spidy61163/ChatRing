@@ -40,7 +40,7 @@ public class VoiceCallActivity extends AppCompatActivity {
     private RtcEngine agoraEngine;
     private boolean isMuted = false;
 
-    private String appId = "b152c92dc33145ba8671be9f4c7ccee5";
+    private String appId = ""; // Your appId
     private String token = "";
     private String channelName = "";
 
@@ -207,7 +207,7 @@ public class VoiceCallActivity extends AppCompatActivity {
         TokenRequest request = new TokenRequest(
                 "rtc",        // Token type
                 appId,
-                "efb86c6bb5b84e4cb5dbcca973b6309c",  // Your certificate
+                "",  // Your certificate
                 "0",
                 channelName,
                 3600
